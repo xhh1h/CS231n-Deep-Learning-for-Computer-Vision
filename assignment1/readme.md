@@ -26,7 +26,7 @@ def compute_distances_two_loops(self, X):
     for i in range(num_test):
         for j in range(num_train):
             # L2 distant-formula: sqrt(sum((x_i - x_j)^2))
-            diff = X[i] - self.X_train[j]    # 各维度差值
+            diff = X[i] - self.X_train[j]    # difference in each dimension
             dists[i, j] = np.sqrt(np.sum(diff ** 2))
     
     return dists
