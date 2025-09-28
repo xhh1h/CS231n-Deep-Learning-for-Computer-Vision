@@ -47,7 +47,7 @@ The main purpose of this function is calculate the `L2` distance between the tes
 
 Assumptions:
 
-+ when the test set has two sample, each sample has two features:\
++ when the test set has two sample, each sample has two features:
 
   ```lua
   [[1, 2],
